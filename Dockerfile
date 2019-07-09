@@ -9,7 +9,7 @@ RUN set -eux; \
     ARCH="$(apk --print-arch)"; \
     case "${ARCH}" in \
        amd64|x86_64) \
-         ESUM='471ef44a57b63a087245f26fc24b28db6d12b5842fd1af211ea470cdb0818ba0'; \
+         ESUM='c4d8b8f27a1e3a0c2dd1782fd2c74d7f5182ab538157b0151c58b4ad8cbd86a9'; \
          BINARY_URL='https://github.com/bharathappali/openj9-alpine-builds/raw/master/build/jdk11/x86_64/alpine/310/openj9-jdk11-alpine.tar.gz'; \
          ;; \
 	 *) \
